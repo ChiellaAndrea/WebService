@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<InformaticaDistribuita>
+
+	<clientServer>
+		<svantaggi>
+			<manutenzione>Reti client-server richiedono spesso un personale con almeno un singolo amministratore di rete per gestire e mantenere le attrezzature e la rete
+			</manutenzione>
+			<congestione>
+				Le reti client-server possono diventare congestionate e sovraccaricare il server con le richieste
+			</congestione>
+			<rottura>
+				Rottura fisica di hard drive o altri componenti del server
+			</rottura>
+		</svantaggi>
+		<raid>
+			Il raid consente di prevenire la rottura dei dischi, con l'aggiunta di piu dischi messi in raid(copie in piu dischi)
+		</raid>
+	</clientServer>
+
+	<webService>
+		<descrizione>
+			Sistema software in grado di mettersi al servizio di un applicazione comunicando su una rete HTTP
+		</descrizione>
+		<esempio>
+			CambioValuta utilizza informazioni provenienti da altri server
+		</esempio>
+		<protocolliStandard>
+			i web service comunicano tramite protocolli standard definiti aperti che sono auto-contenuti e auto-descrittivi
+		</protocolliStandard>
+	</webService>
+
+
+</InformaticaDistribuita>
+
+

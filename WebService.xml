@@ -1,0 +1,38 @@
+<WebService>
+	<Introduzione>
+		<definizione>
+			Un Web service è un componente applicativo. Possiamo definirlo come un sistema software in grado di mettersi al servizio di un applicazione comunicando su di una medesima rete tramite il protocollo HTTP. Un Web service consente quindi alle applicazioni che vi si collegano di usufruire delle funzioni che mette a disposizione.
+		</definizione>
+		<esempio>
+			Per fare un esempio potremmo ipotizzare un Web service che chiameremo “cambiavalute”. Il nostro Web service fornisce le seguenti operazioni: cambio euro/dollaro e viceversa. Questo Web service potrebbe essere offerto da un istituto bancario ed una nostra applicazione potrebbe utilizzarlo per effettuare le operazioni di cambio senza doversi preoccupare dei tassi in vigore al momento dell’operazione.
+		</esempio>
+		<comunicazione>
+		 	Un Web service infatti comunica tramite protocolli e standard definiti “aperti” e quindi sempre a disposizione degli sviluppatori.
+		</comunicazione>
+		<caratteristica>
+			sono auto-contenuti ed auto-descrittivi.
+		</caratteristica>
+		<servizio>
+			Questa caratteristica dei Web service è estremamente utile se si considera che possono essere trovati utilizzando l’UDDI (Universal Description, Discoverey and Integration), un servizio di directory disponibile sul Web dove gli interessati possono registrare e cercare servizi web.
+		</servizio>
+	</Introduzione>
+	<Contesto>
+		<periodo>
+			Il Web è nato negli anni ’90 come una piattaforma per la condivisione di documenti distribuiti su diverse macchine e tra loro interconnessi. 
+		</periodo>
+		<concettiFondamentali>
+			Il tutto è nato e si è evoluto grazie alla standardizzazione di alcuni semplici concetti:
+
+			URI – meccanismo per individuare risorse in una rete
+			HTTP – protocollo semplice e leggero per richiedere una 	risorsa ad una macchina
+			HTML – linguaggio per la rappresentazione dei contenuti
+
+			Al testo si sono aggiunti contenuti multimediali, i documenti sono generati dinamicamente e non pubblicati come pagine statiche
+		</concettiFondamentali>
+		<origine>
+			Questa prospettiva ha dato origine, intorno all’anno 2000, al concetto di Web Service: un sistema software progettato per supportare un’interazione tra applicazioni, utilizzando le tecnologie e gli standard Web. 
+		</origine>
+	</Contesto>
+</WebService>
+
+
