@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebService>
+	<introduzione>
+		<definizione>Possiamo definirlo come un software in grado di mettersi al servizio di un applicazione comunicando sulla stessa rete tramite il protocollo HTTP</definizione>
+		<!--web service è la chiamata tramite un servizio che risiede in una memroria su una macchina esterna con qualsiasi sisstema operativo ecc con invio del nome del servizio e argomenti e con successiva risposta.-->
+		<esempio>Per fare un esempio potremmo ipotizzare un Web service che chiameremo “cambiavalute”. Il nostro Web service fornisce le seguenti operazioni: cambio euro/dollaro e viceversa. Questo Web service potrebbe essere offerto da un istituto bancario ed una nostra applicazione potrebbe utilizzarlo per effettuare le operazioni di cambio senza doversi preoccupare dei tassi in vigore al momento dell’operazione.</esempio>
+		<caratteristiche>
+			<caratteristica>utilizzano protocolli standard e aperti</caratteristica>
+			<caratteristica>auto-contenuti</caratteristica>
+			<caratteristica>auto-descrittivi</caratteristica>
+		</caratteristiche>
+		<utilita>queste caratteristiche li rendono utili per la condivisione </utilita>
+	</introduzione>
+	<contesto>
+		<web>
+			<come_è_nato>Il Web è nato negli anni ’90 come una piattaforma per la condivisione di documenti distribuiti su diverse macchine e tra loro interconnessi.</come_è_nato>
+			<concetti_base>
+				<concetto>
+					<sigla>URI</sigla>
+					<definizione>meccanismo per individuare risorse in una rete</definizione>
+				</concetto>
+				<concetto>
+					<sigla>HTTP</sigla>
+					<definizione>protocollo semplice e leggero per richiedere una risorsa ad una macchina</definizione>
+				</concetto>
+				<concetto>
+					<sigla>HTML</sigla>
+					<definizione>linguaggio per la rappresentazione dei contenuti</definizione>
+				</concetto>
+			</concetti_base>
+			<caratteristiche_attuali>
+				<caratteristica>contenuti multimediali aggiunti al testo</caratteristica>
+				<caratteristica>documenti generati dinamicamente</caratteristica>
+				<caratteristica>"contenitore" di applicazioni interoperabili(piattaforma applicativa distribuita)</caratteristica>
+			</caratteristiche_attuali>
+		</web>
+	</contesto>
+	<creazione>
+		<approcci>
+			<apprccio>
+				<sigla>SOAP</sigla>
+				<definizione>si prefigge di riprodurre in ambito Web un approccio a chiamate remote.</definizione>
+			</apprccio>
+			<apprccio>
+				<sigla>REST</sigla>
+				<definizione>è ispirato ai principi architetturali tipici del Web e si concentra sulla descrizione di risorse, sul modo di individuarle nel Web e sul modo di trasferirle da una macchina all’altra.</definizione>
+			</apprccio>
+		</approcci>
+	</creazione>
+	<perchè_utilizzarli>
+		<motivi>
+			<motivo>I Web service permettono l’interoperabilità tra diverse applicazioni software e su diverse piattaforme hardware/software.</motivo>
+			<motivo>Utilizzano un formato dei dati di tipo testuale, quindi più comprensibile e più facile da utilizzare per gli sviluppatori (esclusi ovviamente i trasferimenti di dati di tipo binario).</motivo>
+			<motivo>Normalmente, essendo basati sul protocollo HTTP, non richiedono modifiche alle regole di sicurezza utilizzate come filtro dai firewall.</motivo>
+			<motivo>Sono semplici da utilizzare e possono essere combinati l’uno con l’altro (indipendentemente da chi li fornisce e da dove vengono resi disponibili) per formare servizi “integrati” e complessi.</motivo>
+			<motivo>Permettono di riutilizzare applicazioni già sviluppate.</motivo>
+			<motivo>Fintanto che l’interfaccia rimane costante, le modifiche effettuate ai servizi rimangono trasparenti.</motivo>
+			<motivo>I servizi web sono in grado di pubblicare le loro funzioni e di scambiare dati con il resto del mondo.</motivo>
+			<motivo>Tutte le informazioni vengono scambiate attraverso protocolli “aperti".</motivo>
+		</motivi>
+	</perchè_utilizzarli>
+	<svantaggi>
+		<problemi>
+			<problema>Le performance</problema>
+			<descrizione>I Web service presentano performance drasticamente inferiori rispetto ad altri metodi di comunicazione utilizzabili in rete. Questo svantaggio è legato alla natura stessa dei servizi web. Essendo basati su XML ogni trasferimento di dati richiede l’inserimento di un notevole numero di dati supplementari (i tag XML) indispensabili per la descrizione dell’operazione. Inoltre tutti i dati inviati richiedono di essere prima codificati e poi decodificati ai capi della connessione. Queste due caratteristiche dei Web service li rendono poco adatti a flussi di dati intensi o dove la velocità dell’applicazione rappresenti un fattore critico.</descrizione>
+			<problema>Il protocollo base, HTTP</problema>
+			<descrizione>Quando si sviluppa un Web service è necessario tener conto del protocollo di base. È quindi indispensabile disporre di un’applicazione terza che gestisca le richieste HTTP oppure è necessario includerla direttamente nel codice del nostro programma qualora si desideri la sua totale indipendenza. Va detto comunque che generalmente il codice che implementa un Web service viene fatto eseguire da un Web server (es. Apache) tramite CGI (per es. con Python) o tramite appositi moduli (vedi PHP). Eseguendo il codice del Web service attraverso un server web la gestione di HTTP è immediatamente assicurata.</descrizione>
+		</problemi>
+	</svantaggi>
+</WebService>

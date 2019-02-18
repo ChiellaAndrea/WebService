@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebService>
+	<Contesto>
+		<concetti_base>
+			<concetto>
+				<sigla>URI</sigla>
+				<definizione>Meccanismo per individuare risorse in una rete</definizione>
+			</concetto>
+			<concetto>
+				<sigla>HTTP</sigla>				
+				<definizione>protocollo semplice e leggero per richiedere una risorsa ad una macchina</definizione>
+			</concetto>
+			<concetto>
+				<sigla>HTML</sigla>							
+				<definizione>linguaggio per la rappresentazione dei contenuti</definizione>
+				</concetto>
+		</concetti_base>
+		<caratteristiche_attuali>
+			<caratteristica>contenuti multimediali aggiunti al testo</caratteristica>
+			<caratteristica>documenti generati dinamicamente</caratteristica>
+			<caratteristica>"contenitore" di applicazioni interoperabili(piattaforma applicativa distribuita)</caratteristica>
+		</caratteristiche_attuali>
+	</Contesto>
+		<definizione>
+			software comunicante con un 
+			altro software sulla stessa rete tramite protocollo HTTP
+		</definizione>
+		<caratteristiche>
+			<caratteristica>utilizzano protocolli standard e aperti</caratteristica>
+			<caratteristica>auto-contenuti</caratteristica>
+			<caratteristica>auto-descrittivi</caratteristica>
+		</caratteristiche>
+		<utilita>queste caratteristiche li rendono utili per la 
+		condivisione che avviene attraverso UDDI</utilita>
+</WebService>
+<!--
+
+lui non vuole che usiate un tag per dire è una mappa o è una tabella o è un argomento vuole che la usiate come parola semantica per dire questo significa questo
+
+-->
